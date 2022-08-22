@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#AP{
+    width: 150px; 
+ 
+ }
+.contactos{
+    margin-right: 0.7em;
+}
+
+ img{
+    width: 40px;
+}
+
+
+
