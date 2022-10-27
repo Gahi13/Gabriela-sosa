@@ -13,6 +13,7 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
 import { HardysoftComponent } from './components/hardysoft/hardysoft.component';
 import { MisproyectosComponent } from './components/misproyectos/misproyectos.component';
 import { PiepaginaComponent } from './components/piepagina/piepagina.component';
+import {HttpClientModule} from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,7 +30,8 @@ import { PiepaginaComponent } from './components/piepagina/piepagina.component';
   imports: [
     BrowserModule,
       NgCircleProgressModule.forRoot({}),
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
